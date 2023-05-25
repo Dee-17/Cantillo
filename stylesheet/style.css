@@ -7,8 +7,8 @@ body{
 	font-family: 'Inter', sans-serif;
     background: #060704;
     background-color: #060704;
-    text-align: justify;
-    text-justify: inter-word;
+    /* text-align: justify;
+    text-justify: inter-word; */
 }
 
 .nav-link{
@@ -22,6 +22,8 @@ body{
 
 .text-start{
     margin-bottom: 10px;
+    /* text-align: justify;
+    text-justify: inter-word; */
 }
 
 .progress{
@@ -37,4 +39,5 @@ body{
     border-color: #f5f6ef;
     border-width: 2px;
 }
+
 

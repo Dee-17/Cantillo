@@ -8,6 +8,7 @@ body{
     background: #060704;
     background-color: #060704;
     text-align: justify;
+    text-justify: inter-word;
 }
 
 .nav-link{
@@ -16,7 +17,7 @@ body{
 
 .row{
     color:#f5f6ef;
-    margin-top: 150px;
+    /* margin-top: 150px; */
 }
 
 .text-start{

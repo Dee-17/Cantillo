@@ -1,7 +1,19 @@
 *{
     background: #060704;
+    background-color: #060704;
 }
 
 body{
 	font-family: 'Inter', sans-serif;
+    background: #060704;
+    background-color: #060704;
+}
+
+.nav-link{
+    color: #f5f6ef;
+}
+
+.row{
+    color:#f5f6ef;
+    margin-top: 50px;
 }

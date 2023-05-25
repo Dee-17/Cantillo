@@ -15,5 +15,9 @@ body{
 
 .row{
     color:#f5f6ef;
-    margin-top: 50px;
+    margin-top: 150px;
+}
+
+.text-start{
+    margin-bottom: 10px;
 }

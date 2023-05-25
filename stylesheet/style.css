@@ -7,6 +7,7 @@ body{
 	font-family: 'Inter', sans-serif;
     background: #060704;
     background-color: #060704;
+    text-align: justify;
 }
 
 .nav-link{
@@ -21,3 +22,18 @@ body{
 .text-start{
     margin-bottom: 10px;
 }
+
+.progress{
+    background: transparent;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 20px;
+}
+
+.card-body{
+    border-radius: 10px;
+    border: solid ;
+    border-color: #f5f6ef;
+    border-width: 2px;
+}
+

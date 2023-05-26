@@ -7,7 +7,6 @@ body{
 }
 
 
-
 section {
     overflow: hidden;
   }
@@ -16,6 +15,20 @@ section {
     padding: 7rem 0;
   }
 
+
+
+
+@keyframes fade-up {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px) scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(0.9);
+    }
+}
 
 /* Navigation */
 .nav-link{
@@ -30,6 +43,11 @@ section {
 .row{
     color:#f5f6ef;
     /* margin-top: 150px; */
+
+}
+
+.fade{
+    animation: fade-up 0.9s;
 }
 
 .nav-btn{
@@ -87,6 +105,15 @@ section {
 }
 
 
+/* Animations */
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+  }
+
+  .fade-in.show {
+    opacity: 1;
+  }
 
 
   

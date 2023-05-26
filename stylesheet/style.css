@@ -22,6 +22,11 @@ section {
     color: #f5f6ef;
 }
 
+.nav-link:hover{
+    color: #e0beb8;
+
+}
+
 .row{
     color:#f5f6ef;
     /* margin-top: 150px; */
@@ -210,7 +215,7 @@ section {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background: #f8f9fa;
+    background: #060704;
     position: relative;
     text-align: center;
     transition: 0.3s background ease;
@@ -250,3 +255,4 @@ section {
     background: linear-gradient(to right, #beb8e0, #e0beb8); /* Adjust the colors and direction as needed */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;}
+

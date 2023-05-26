@@ -17,7 +17,7 @@ section {
   }
 
 
-
+/* Navigation */
 .nav-link{
     color: #f5f6ef;
 }
@@ -26,6 +26,40 @@ section {
     color:#f5f6ef;
     /* margin-top: 150px; */
 }
+
+.nav-btn{
+    color:white;
+    border-color: #e0beb8;
+}
+
+.nav-btn:hover{
+    background: #e0beb8;
+    color: #060704;
+    border-color: #e0beb8;
+}
+
+.nav-btn-text{
+    color: #e0beb8;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.nav-btn-text:hover{
+    color: #060704;
+
+}
+
+.header-btn{
+    color:#beb8e0;
+    border-color:#beb8e0;
+}
+
+
+.text-btn:hover{
+    color:white;
+}
+
+/* Skills Card */
 
 .text-start{
     margin-bottom: 10px;

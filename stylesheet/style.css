@@ -170,3 +170,25 @@ section {
     border-color: #e0beb8;
     width: 150px;
 }
+
+
+/* About Me */
+
+.header-me{
+    color: #eaf6eb;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card-txt{
+    color: #060704;
+    padding-left: 10px;
+    font-weight: 500;
+   
+}
+
+.circle {
+    border-radius: 50%;
+    overflow: hidden;
+    background: #beb8e0;
+  }

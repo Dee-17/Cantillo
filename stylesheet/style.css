@@ -88,40 +88,6 @@ section {
 
 
 
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
-.back-to-top {
-    position: fixed;
-    visibility: hidden;
-    opacity: 0;
-    right: 15px;
-    bottom: 15px;
-    z-index: 996;
-    /* background: #2d71a1; */
-    width: 40px;
-    height: 40px;
-    border-radius: 50px;
-    transition: all 0.4s;
-  }
-/* 
-  .back-to-top i {
-    font-size: 28px;
-    color: #fff;
-    line-height: 0;
-  } */
-
-  .back-to-top:hover {
-    background: transparent;
-    color: #eaf6eb;
-  }
-
-  .back-to-top.active {
-    visibility: visible;
-    opacity: 1;
-  }
-
-
 
   
   /* Feature 1 */
@@ -139,15 +105,15 @@ section {
   }
   
   .feature-1 .wrap-icon.icon-1 {
-    background: linear-gradient(-45deg, #3b87bd, #2d71a2);
+    background: linear-gradient(-45deg, #beb8e0, #e0beb8);
   }
   
-  .feature-1 .wrap-icon i {
+  /* .feature-1 .wrap-icon i {
     font-size: 40px;
     line-height: 0;
     color: #fff;
   }
-  
+   */
   .feature-1 h3 {
     font-size: 20px;
   }
@@ -199,6 +165,9 @@ section {
     background: #beb8e0;
   }
 
+.text{
+    padding-left: 150px;
+}
 
 
   /* Contact */
@@ -254,5 +223,5 @@ section {
 .gradient-text {
     background: linear-gradient(to right, #beb8e0, #e0beb8); /* Adjust the colors and direction as needed */
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;}
-
+    -webkit-text-fill-color: transparent;
+}

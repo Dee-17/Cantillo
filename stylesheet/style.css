@@ -234,3 +234,19 @@ section {
   .name{
     color: linear-gradient(-45deg, #3b87bd, #2d71a2)
   }
+
+  .submit-btn{
+    color: #060704;
+    background: #ffefec;
+    border-color: #fcebe8;
+  }
+
+.btn:hover{
+    border-color: transparent; 
+    background-color: #dda9a0;
+}
+
+.gradient-text {
+    background: linear-gradient(to right, #beb8e0, #e0beb8); /* Adjust the colors and direction as needed */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;}
